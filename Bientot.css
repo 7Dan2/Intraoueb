@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('./Images/batiment-bw.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+.button {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid rgb(146, 145, 145);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: grey;
+    box-shadow: 0px 0px 20px firebrick;
+    width: 200px;
+    position: absolute;
+    top: 150PX;
+    left: 20px;
+    }
+.button > a {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: whitesmoke;
+    color: blue;
+}
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-size: 12px;
+}
+
+.middle {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+h1 {
+	color: lightblue;
+	text-align: left;
+}
