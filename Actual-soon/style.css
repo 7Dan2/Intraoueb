@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+.date {
+	width: auto;
+	height: 5%;
+}
+.date p {
+	color: blue;
+	text-align: center;
+	background-color: #f1f1f1;
+    border-right: 2px solid coral;
+	border-left: 2px solid coral;
+	border-bottom: 2px solid coral;
+    border-radius: 5px;
+	margin: 0;
+	}
+.left_sidebar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+	position: fixed;
+	top: 200px;
+	border-radius: 5px;
+	}
+left_sidebar.active {
+	background-color: #4caf50;
+}
+.topbar {
+	position: absolute;
+	list-style-type: none;
+	width: auto;
+	height: 50px;
+	top: 135px;
+
+}
+
+.topbar a {
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+	float: left;
+	padding: 5px;
+	margin: 2px;
+	display: inline-block;
+	border: 2px solid brown;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.topbar a:hover {
+	background-color: white;
+	color: black;
+	}
+.centre_droit {
+	position: absolute;
+	top: 200px;
+	right: 490px;
+	width: 300px;
+	height: 500px;
+	border: 2px solid #e06472;
+	background-color: whitesmoke;
+	border-radius: 5px;
+    padding: 5px;
+}
+.centre_droit p{
+	font-size: 10px;
+}
+.centre_gauche {
+	position: absolute;
+    font-size: 14px;
+	top: 200px;
+	left: 280px;
+	width: 800px;
+	border: 2px solid red;
+	background-color: blanchedalmond;
+	border-radius: 5px;
+    padding: 5px;
+}
+.Upcoming {
+	position: relative;
+	top: 600px;
+	left: 270px;
+	width: 800px;
+	Height: 200px;
+	border: 2px solid blue;
+	background-color: #DDB;
+	border-radius: 5px;
+    padding: 5px;
+	
+}
+aside {
+	position: absolute;
+	top: 29px;
+	left: 50px;
+	color: rgba(0,0,0,0.5);
+	border: 0px solid #f00;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(254,254,254,0.5);
+	font-size: 10px;
+}
+
+aside p{
+	position: absolute;
+	top: 29px;
+	left: 200px;
+	color: rgba(0,0,0,0.5);
+	border: 0px solid #f00;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(254,254,254,0.5);
+	font-size: 10px;
+}
+
+
+li {
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 5px;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+li a:hover{
+	background-color: #555;
+	color: white;
+}
+body {
+	padding: 50;
+	font-family: Georgia, Times, serif;
+	border-radius: 2em;
+	background-image: url('///Y:/USID/INT/Site/Images/img14.jpg');
+}
+header > section:hover {
+	border-color:#333;
+}
+.Welcome {
+    height: 175px;
+    border-radius: 5px;
+    background: red;
+  	background: linear-gradient(rosybrown, brown);
+    
+}
+.Welcome >h1 {
+    vertical-align: middle;
+    padding: 12px;
+    text-align: center;
+	color: blue;
+	text-shadow: 0 0 20px white;
+	
+	margin: 0;
+}
+h2 {
+	color: brown;
+}
+h3 {
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 0px 60px;
+	margin: 3px;
+	
+	border-radius: 5px;
+}
+article.centre1 {
+	position : absolute;
+	top: 150px;
+	left: 0px;
+	border: 2px solid green;
+	margin: 1% 30%;
+	width: 800px;
+}
+p { 
+	background-color: lightyellow;
+}
+div.tabnews {
+	position: absolute;
+	box-shadow: 15px 15px 0px 0px lightgrey;
+	font-family: courrier;
+	font-size: 13px;
+	background-color: black;
+	top: 300px;
+	right: 100px;
+	display: inline-block;
+	width: 285px;
+	height: 400px;
+	border: 20px solid white;
+	border-radius: 10px;
+}
+
+.tabnews p {
+	background-color: black;
+	color: white;
+	font: courrier 8px;
+}
+.logo {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	
+}
+article {
+    background: #DCB;
+}
+.header > h3{
+	color: white;
+	background-color :brown;
+	font-size: 12px;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+.tooltip.tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: orange;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+header {
+    height: 50px;
+   	color: green;
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	background-color: whitesmoke;
+	color: green;
+	text-align: left;
+	}
+.footer a {
+	color: rgb(85,92,87);
+}
+.footer a:hover {
+	color: rgb(22,211,87);
+}
