@@ -31,7 +31,7 @@ header {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-header > h3 {
+date {
     color: white;
 	font-size: 10 px;
 	text-align: center;
@@ -58,7 +58,7 @@ body {
     border: 2px solid brown;
     border-radius: 5px;
     background-color: rgba(210, 105, 30, 0.5);
-    margin-bottom: 0;
+    margin-top: 0;
     padding: 0;
 }
 .sidenavl li {
@@ -100,7 +100,7 @@ sidenavl a:visited {
     border: 2px solid brown;
     border-radius: 5px;
     background-color: rgba(210, 105, 30, 0.6);;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0;
 }
 .sidenavr li {
@@ -140,7 +140,7 @@ sidenavl a:visited {
     border: 2px solid orange;
 	border-radius: 4px;
 	padding: O;
-    margin: 20px;
+    margin-top: 1%
 }
 .consignes:hover{
     color: black;
@@ -155,7 +155,7 @@ sidenavl a:visited {
     border: 2px solid orange;
 	border-radius: 4px;
 	padding: O;
-    margin: 20px;
+    margin-top: 1%;
 }
 .consignations:hover{
     color: black;
@@ -169,9 +169,9 @@ sidenavl a:visited {
     border: 2px solid green;
     border-radius: 4px;
 	padding: 8px;
-    position: absolute;
-    right: 10px;
-    top: 23%;
+    position: relative;
+    margin-top: 10px;
+    
     width: 1%;
     height: auto;
     color: #ffffff;
@@ -183,30 +183,35 @@ sidenavl a:visited {
     color: black;
     background: rgba(176, 245, 176, 0.9);
 }
-.footer {
+footer {
     list-style-type: none;
     position: fixed;
     bottom: 1%;
-    width: 100%;
+    width: 98%;
     background-color:  rgba(122, 20, 136, 0.8);
     color: #ffffff;
-    text-align: right;
+    text-align: left;
     font-size: 12px;
-    padding: 8px;
-	margin: 10px;
-	border-radius: 4px;
+    padding: 0.5%;
+	margin: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
-.footer li a{
-    padding: 8px;
-}
-.footer a{
+footer a{
 	color: orange;
-	text-decoration: none;
+    text-decoration: none;
+
+    padding: 0.5%;
+    font-size: 12px;
+   
+   
 }
-.footer a:hover{
+footer a:hover{
 	color: whitesmoke;
 }
-.footer a:visited{
+footer a:visited{
 	color: yellow;
 }
 
