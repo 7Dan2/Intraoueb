@@ -41,16 +41,15 @@
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
-    } 
+    } }
 body {
     background-color: rgba(153, 12, 141, 0.5);
-    background-image: 
-}
+    }
 .header {
     background-color: blueviolet;
     text-align: center;
     color: white;
-    text-shadow: 0 0 0 20px blue;
+    text-shadow: 0 0 20px blue;
     font-size: 40px;
     height: 15%;
     border-top-right-radius: 10px;
